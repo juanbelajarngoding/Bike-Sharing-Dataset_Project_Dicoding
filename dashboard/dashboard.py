@@ -54,7 +54,7 @@ def make_Line_Plot(df_x,df_y,labelx=None,labely=None,labelrotation=0, color="#FB
 min_date = hour_df["datetime"].min()
 max_date = hour_df["datetime"].max()
 with st.sidebar:
-    st.image("bike.jpg")
+    st.image("dashboard/bike.jpg")
 
     # Making data filter
     start_date, end_date = st.date_input(
