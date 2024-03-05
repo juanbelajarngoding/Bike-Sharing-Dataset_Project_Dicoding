@@ -14,8 +14,8 @@ def addlabels(x,y):
         plt.text(i, y[i], y[i], ha = 'center')
 
 # Read file csv
-day_df = pd.read_csv('day_clean.csv')
-hour_df = pd.read_csv('hour_clean.csv')
+day_df = pd.read_csv('dashboard/day_clean.csv')
+hour_df = pd.read_csv('dashboard/hour_clean.csv')
 
 # Process Data
 day_df.sort_values(by="datetime", inplace=True)
